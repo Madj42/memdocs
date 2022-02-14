@@ -89,6 +89,12 @@ To make changes that the conversion process doesn't support, you need to [Redepl
 >
 > For more information, see [Replace a CMG with a new service name](#replace-a-cmg-with-a-new-service-name).
 
+> [!IMPORTANT]
+> Be sure to validate that your Azure tenant has the necessary resource providers enabled before continuing with the conversion process. 
+>
+> For more information, see [Configure Azure resource providers](configure-azure-ad.md#configure-azure-resource-providers).
+
+
 ### Process to convert a CMG to a virtual machine scale set
 
 1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Cloud Management Gateway** node.
